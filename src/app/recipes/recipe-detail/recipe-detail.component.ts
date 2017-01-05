@@ -15,7 +15,7 @@ export class RecipeDetailComponent implements OnInit {
   }
 
   onAddToShoppingList(){
-
+    this.sls.addItems(this.selectedRecipe.ingredients);
   }
 
 }
